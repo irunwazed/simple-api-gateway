@@ -4,6 +4,7 @@
   "description": "simple api gateway use express",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build express",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
