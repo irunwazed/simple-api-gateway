@@ -4,8 +4,8 @@
   "description": "simple api gateway use express",
   "main": "index.js",
   "scripts": {
-		"build": "pm2 start server.js --watch",
-		"start": "node server.js",
+    "build": "pm2 start server.js --watch",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aka",
