@@ -10,7 +10,7 @@ const ROUTES = require('./config/routes')
 setProxy(app, ROUTES);
 
 app.get('/login', (req, res) => {
-	res.send('login bro22!');
+	res.send('login bro212!');
 })
 
 app.listen(port, () => {
